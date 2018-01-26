@@ -1,4 +1,4 @@
-translation = {'а': {'translation': 'a', 'word': 'мама'},
+translate = {'а': {'translation': 'a', 'word': 'мама'},
  'б': {'translation': 'b', 'word': 'бумага'},
  'в': {'translation': 'w', 'word': 'видеть'},
  'г': {'translation': 'g', 'word': 'год'},
@@ -31,3 +31,5 @@ translation = {'а': {'translation': 'a', 'word': 'мама'},
  'э': {'translation': 'e', 'word': 'это'},
  'ю': {'translation': 'ju', 'word': 'люди'},
  'я': {'translation': 'ja', 'word': 'имя'}}
+
+print(translate)
