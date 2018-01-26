@@ -18,7 +18,16 @@ class CarouselApp(App):
 
 
         carousel = Carousel(direction='right')
-        self.text ='y'
+
+
+
+        lang = {"translate":  {'а': {'translation': 'a', 'word': 'мама'}, 'б': {'translation': 'b', 'word': 'бумага'}}}
+
+
+
+        #exec(open("lang/rus/config.py").read(),lang)
+        #print(lang["translate"])
+
 
 
 
@@ -28,7 +37,9 @@ class CarouselApp(App):
             Rectangle(source="img/tlo.png", pos=carousel.pos,size=Window.size)
 
         #return carousel
-        for i in range(30):
+        for i in lang["translate"]:
+            self.text = i
+
             layouttop = GridLayout(cols=2)
 
             texta = Label(text=self.text, font_size='100sp')
@@ -59,9 +70,11 @@ class CarouselApp(App):
 
 
 
-            text4 = Label(text=self.text, font_size='100sp')
+
+            text4 = Label(text=lang["translate"][i]["word"], font_size='100sp')
 
             layout.add_widget(text4)
+
 
 
            # text5 = Label(text=text, font_size='500sp')
