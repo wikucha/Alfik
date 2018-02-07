@@ -63,7 +63,8 @@ class CarouselApp(App):
 
 
 
-            text3 = Button(text=self.text, font_size='50sp')
+            przycisk_zmiany=Image(source="img/strzalki.png")
+            text3 = Button(background_normal="img/strzalki.png", font_size='50',size_hint=(.1,.1),pos_hint={'x': 0, 'center_y': .5})
 
             def action(label,org,translate):
                 def change(obj):
