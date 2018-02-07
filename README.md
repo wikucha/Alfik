@@ -1,5 +1,7 @@
 ## Alfik
 
+### Aktualny wygląd Alfika
+
 ![Image](https://github.com/wikucha/Alfik/blob/master/doc/app1.png?raw=true)
 
 ### O Alfiku
@@ -24,4 +26,4 @@ Alfik to aplikacja tworzona w języku programowania Python z pomocą framework K
   Czekamy na więcej! :)
 
 
-[_link do strony:_](https://wikucha.github.io/Alfik/)
+[_link do strony_](https://wikucha.github.io/Alfik/)
