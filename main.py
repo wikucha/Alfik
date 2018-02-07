@@ -21,12 +21,12 @@ class CarouselApp(App):
 
 
 
-        lang = {"translate":  {'а': {'translation': 'a', 'word': 'мама'}, 'б': {'translation': 'b', 'word': 'бумага'}}}
+       # lang = {"translate":  {'а': {'translation': 'a', 'word': 'мама'}, 'б': {'translation': 'b', 'word': 'бумага'}}}
 
 
-
-        #exec(open("lang/rus/config.py").read(),lang)
-        #print(lang["translate"])
+        lang = {}
+        exec(open("lang/rus/config.py",encoding="utf-8").read(),lang)
+        print(lang["translate"])
 
 
 
