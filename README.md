@@ -15,5 +15,11 @@ Alfik to aplikacja tworzona w języku programowania Python z pomocą framework K
 
 - Piotr Przymus
 
+### Wspierane języki
+
+- Rosyjski
+
+  Czekamy na więcej! :)
+
 
 _link do strony:_[https://wikucha.github.io/Alfik/]
