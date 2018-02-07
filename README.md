@@ -4,34 +4,17 @@ You can use the [editor on GitHub](https://github.com/wikucha/Alfik/edit/master/
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### O Alfiku
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Alfik to aplikacja tworzona w języku programowania Python z pomocą framework Kivy przez grupę licealistów- miłośników programowania. Nasza aplikacja ma na celu służyć użytkownikom chcącym nauczyć się nowych języków. A od czego najlepiej zacząć tę naukę? Podstawą każdego języka jest alfabet, dlatego nasz zespół zajmuje się tworzeniem aplikacji pomagającej stworzyć silne fundamenty pod naukę języków obcych.
 
-```markdown
-Syntax highlighted code block
+### Członkowie projektu
 
-# Header 1
-## Header 2
-### Header 3
+- Wiktoria Gierej
+- Róża Łuczak
+- Zuzanna Kręc
+- Hubert Kutowski
 
-- Bulleted
-- List
+### Opiekun projektu
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wikucha/Alfik/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Piotr Przymus
