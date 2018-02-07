@@ -64,7 +64,16 @@ class CarouselApp(App):
 
 
             text3 = Button(text=self.text, font_size='50sp')
-            text3.bind(on_release=self.change)
+
+            def action(label,org,translate):
+                def change(obj):
+                    if label.text == org:
+                        label.text = translate
+                    else:
+                        label.text = org
+                return change
+
+            text3.bind(on_release=action(text2,i,lang["translate"][i]["translation"]))
 
             layout.add_widget(text3)
 

@@ -1,4 +1,4 @@
-translation = {'а': {'translation': 'a', 'word': 'мама'},
+translate = {'а': {'translation': 'a', 'word': 'мама'},
  'б': {'translation': 'b', 'word': 'бумага'},
  'в': {'translation': 'w', 'word': 'видеть'},
  'г': {'translation': 'g', 'word': 'год'},
