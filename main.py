@@ -9,16 +9,21 @@ from kivy.graphics import *
 
 
 class CarouselApp(App):
+    def change(self,obj):
+        self.text="X"
+
+        print("kkk")
     def build(self):
+
 
 
         carousel = Carousel(direction='right')
 
 
+
         lang = {"translate":  {'а': {'translation': 'a', 'word': 'мама'}, 'б': {'translation': 'b', 'word': 'бумага'}}}
 
 
-        A = "ąąą"
 
         #exec(open("lang/rus/config.py").read(),lang)
         #print(lang["translate"])
@@ -33,34 +38,36 @@ class CarouselApp(App):
 
         #return carousel
         for i in lang["translate"]:
-            text = i
+            self.text = i
 
             layouttop = GridLayout(cols=2)
 
-            texta = Label(text=text, font_size='100sp')
-            textb = Label(text=text, font_size='100sp')
+            texta = Label(text=self.text, font_size='100sp')
+            textb = Label(text=self.text, font_size='100sp')
 
             layouttop.add_widget(texta)
             layouttop.add_widget(textb)
 
 
             layout = GridLayout(rows=4)
-            text1 = Label(text=text, font_size='100sp')
+            text1 = Label(text=self.text, font_size='100sp')
 
             layout.add_widget(layouttop)
 
 
 
 
-            text2 = Label(text=text, font_size='300sp')
+            text2 = Label(text=self.text, font_size='300sp')
 
             layout.add_widget(text2)
 
 
 
-            text3 = Label(text=text, font_size='50sp')
+            text3 = Button(text=self.text, font_size='50sp')
+            text3.bind(on_release=self.change)
 
             layout.add_widget(text3)
+
 
 
 
@@ -79,7 +86,7 @@ class CarouselApp(App):
             carousel.add_widget(layout)
 
 
-            text = chr(ord(text)+1)
+            text = chr(ord(self.text)+1)
 
 
            # with  widget.canvas:
