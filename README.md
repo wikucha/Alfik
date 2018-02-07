@@ -6,7 +6,7 @@
 
 ### O Alfiku
 
-Alfik to aplikacja tworzona w języku programowania Python z pomocą framework Kivy przez grupę licealistów- miłośników programowania. Nasza aplikacja ma na celu służyć użytkownikom chcącym nauczyć się nowych języków. A od czego najlepiej zacząć tę naukę? Podstawą każdego języka jest alfabet, dlatego nasz zespół zajmuje się tworzeniem aplikacji pomagającej stworzyć silne fundamenty pod naukę języków obcych.
+Alfik to aplikacja tworzona w języku programowania Python z pomocą framework Kivy przez grupę licealistów- miłośników programowania w ramach konkursu _Programowanie zespołowe 2.0_. Nasza aplikacja ma na celu służyć użytkownikom chcącym nauczyć się nowych języków. A od czego najlepiej zacząć tę naukę? Podstawą każdego języka jest alfabet, dlatego nasz zespół zajmuje się tworzeniem aplikacji pomagającej stworzyć silne fundamenty pod naukę języków obcych.
 
 ### Członkowie projektu
 
@@ -26,4 +26,4 @@ Alfik to aplikacja tworzona w języku programowania Python z pomocą framework K
   Czekamy na więcej! :)
 
 
-[_link do strony_](https://wikucha.github.io/Alfik/)
+[_Link do strony_](https://wikucha.github.io/Alfik/)
