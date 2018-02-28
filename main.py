@@ -11,99 +11,34 @@ def load_lang(file_name):
     exec(open(file_name, encoding="utf-8").read(), lang)
     return lang
 
+def action(label, org, translate):
+    def change(obj):
+        if label.text == org:
+            label.text = translate
+        else:
+            label.text = org
+    return change
+
+
 class CarouselApp(App):
-    def change(self,obj):
-        self.text="X"
-
-        print("kkk")
     def build(self):
-
-
-
-        carousel = Carousel(direction='right')
-
-
-
+         carousel = Carousel(direction='right')
+         lang=load_lang("lang/rus/config.py")
        # lang = {"translate":  {'а': {'translation': 'a', 'word': 'мама'}, 'б': {'translation': 'b', 'word': 'бумага'}}}
 
-    
+
         with carousel.canvas:
-            Window.size
             Color(1,1,1)
             Rectangle(source="img/tlo.png", pos=carousel.pos,size=Window.size)
 
         #return carousel
-        for i in lang["translate"]:
-            self.text = i
-
-            layouttop = GridLayout(cols=2)
-
-            texta = Label(text=self.text, font_size='100sp')
-            textb = Label(text=self.text, font_size='100sp')
-
-            layouttop.add_widget(texta)
-            layouttop.add_widget(textb)
-
-
-            layout = GridLayout(rows=4)
-            text1 = Label(text=self.text, font_size='100sp')
-
-            layout.add_widget(layouttop)
-
-
-
-
-            text2 = Label(text=self.text, font_size='300sp')
-
-            layout.add_widget(text2)
-
-
-
-            przycisk_zmiany=Image(source="img/strzalki.png")
-            text3 = Button(background_normal="img/strzalki.png", font_size='50',size_hint=(.1,.1),pos_hint={'x': 0, 'center_y': .5})
-
-            def action(label,org,translate):
-                def change(obj):
-                    if label.text == org:
-                        label.text = translate
-                    else:
-                        label.text = org
-                return change
-
-            text3.bind(on_release=action(text2,i,lang["translate"][i]["translation"]))
-
-            layout.add_widget(text3)
-
-
-
-
-            text4 = Label(text=lang["translate"][i]["word"], font_size='100sp')
-
-            layout.add_widget(text4)
-
-
-
-           # text5 = Label(text=text, font_size='500sp')
-
-#            layout.add_widget(text5)
-
-            #layout.add_widget(img)
-
-            carousel.add_widget(layout)
-
-
-            text = chr(ord(self.text)+1)
-
-
-           # with  widget.canvas:
-               # widget.bg_rect = Rectangle(source="slonce.jpg", pos=self.pos, size=self.size)
-            #widget.bind(pos=redraw, size=redraw)
+        for litera in lang["translate"]:
+            litera_tlumaczenie = lang["translate"][litera]["translation"]
+            layout = builder.Builder.load_file("learn_layout.kv")
+            
 
 
         return carousel
-
-
-
 
 if __name__ =="__main__":
     CarouselApp().run()
