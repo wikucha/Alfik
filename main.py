@@ -1,12 +1,15 @@
 from kivy.app import App
 from kivy.uix.carousel import Carousel
-from kivy.uix.gridlayout import GridLayout
-from kivy.uix.label import Label
-from kivy.uix.button import Button
-from kivy.uix.image import Image
 from kivy.core.window import Window
-from kivy.graphics import *
+from kivy.graphics import Rectangle, Color
 
+from kivy.lang import builder
+
+
+def load_lang(file_name):
+    lang = {}
+    exec(open(file_name, encoding="utf-8").read(), lang)
+    return lang
 
 class CarouselApp(App):
     def change(self,obj):
@@ -23,14 +26,7 @@ class CarouselApp(App):
 
        # lang = {"translate":  {'а': {'translation': 'a', 'word': 'мама'}, 'б': {'translation': 'b', 'word': 'бумага'}}}
 
-
-        lang = {}
-        exec(open("lang/rus/config.py",encoding="utf-8").read(),lang)
-        print(lang["translate"])
-
-
-
-
+    
         with carousel.canvas:
             Window.size
             Color(1,1,1)
