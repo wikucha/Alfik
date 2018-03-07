@@ -26,6 +26,7 @@ def play_sound(plik):
             print("Sound found at %s" % sound.source)
             print("Sound is %.3f seconds" % sound.length)
             sound.play()
+    return play_action
 
 class CarouselApp(App):
     def build(self):
@@ -50,7 +51,12 @@ class CarouselApp(App):
             layout.ids.zamien_litere.bind(
                on_release= action(duza_litera, litera, litera_tlumaczenie)
             )
+
             litera_sound = lang["translate"][litera]["sound"]
+
+            layout.ids.play_sound.bind(
+                on_release= play_sound(litera_sound)
+            )
 
 
         return carousel
