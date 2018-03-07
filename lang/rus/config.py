@@ -25,9 +25,9 @@ translate = {'а': {'translation': 'a', 'word': 'мама', 'sound':'sound/rus/A
  'ч': {'translation': 'cz', 'word': 'чёрный','sound':'sound/rus/Cz.wav'},
  'ш': {'translation': 'sz', 'word': 'больше','sound':'sound/rus/Sz.wav'},
  'щ': {'translation': 'szcz', 'word': 'вещь','sound':'sound/rus/Szcz.wav'},
- 'ъ': {'translation': 'twardy znak', 'word': 'съел',None},
+ 'ъ': {'translation': 'twardy znak', 'word': 'съел','sound':None},
  'ы': {'translation': 'y', 'word': 'зелёный','sound':'sound/rus/Y.wav'},
- 'ь': {'translation': 'miękki znak', 'word': 'ночь',None},
+ 'ь': {'translation': 'miękki znak', 'word': 'ночь','sound':None},
  'э': {'translation': 'e', 'word': 'это','sound':'sound/rus/E.wav'},
  'ю': {'translation': 'ju', 'word': 'люди','sound':'sound/rus/Ju.wav'},
  'я': {'translation': 'ja', 'word': 'имя','sound':'sound/rus/Ja.wav'}}
