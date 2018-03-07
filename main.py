@@ -21,6 +21,7 @@ def action(label, org, translate):
 
 def play_sound(plik):
     def play_action(obj):
+        if plik is None: return
         sound = SoundLoader.load(plik)
         if sound:
             print("Sound found at %s" % sound.source)
