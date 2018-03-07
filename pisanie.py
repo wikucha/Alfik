@@ -1,5 +1,5 @@
 from kivy.core.window import Window
-
+from kivy.uix.label import Label
 from random import random
 from kivy.app import App
 from kivy.uix.widget import Widget
@@ -13,51 +13,55 @@ class MyPaintWidget(Widget):
         Widget. __init__(self,**kwargs)
         self.color = (random(), random(), random())
 
-
-
-
     def on_touch_down(self,touch):
         with self.canvas:
             Color(*self.color) #*oznacza rozpakuj krotke
             d = 30.
-            Ellipse(pos=(touch.x - d / 2, touch.y - d / 2), size=(d, d))
-            touch.ud['line'] = Line(points=(touch.x, touch.y))
-
-            print((touch.x, touch.y))
+            if touch.y>120 and touch.x>215 and touch.y<470 and touch.x<565:
+                touch.ud['line'] = Line(points=(touch.x, touch.y),width=9)
+                print((touch.x, touch.y))
+            else:
+                print("a")
 
     def on_touch_move(self, touch):
-        touch.ud['line'].points += [touch.x, touch.y]
+        if touch.y > 120 and touch.x > 215 and touch.y < 470 and touch.x < 565:
+            touch.ud['line'].points += [touch.x, touch.y]
 
 class MyPaintApp(App):
     def build(self):
-        self.layout=GridLayout(cols=2)#tworzymy 2 kolumny
+        #self.layout=GridLayout(cols=2)#tworzymy 2 kolumny
+
         #czerwony=Button(text='czerwony')
         #czerwony.bind(on_release=self.self_color(1,1,0))
-
 
         parent = Widget()#widget ktory gromadzi widgety
         self.painter = MyPaintWidget()#gdy jest self z przodu to bedzie widoczna po wyjsciu z funkcji
         with self.painter.canvas:
-            Rectangle(source="img/tlo.png", pos=(0, 0), size=Window.size)
-            Color(1., 0, 0)
+         #   Rectangle(source="img/tlo.png", pos=(0, 0), size=Window.size)
+            Color(0.85, 0.7, 0.75,0.5)
 
             # Add a rectangle
             nowyrozmiar=list(Window.size)
-            nowyrozmiar[0]-=100
-            nowyrozmiar[1]-=100
-            Rectangle(pos=(50, 50), size=nowyrozmiar)
-        parent.add_widget(self.painter)
+            nowyrozmiar[0]=350
+            nowyrozmiar[1]=350
+            Rectangle(pos=(215, 120), size=nowyrozmiar)
 
+        text2 = Label(text="a", font_size='350sp',pos=(338,270))
+
+        parent.add_widget(text2)
+
+        parent.add_widget(self.painter)
        #clearbtn = Button(text='Clear')#tej zmiennej nie bedzie widac po wyjsciu  z funkcji
        #clearbtn.bind(on_release=self.clear_canvas)#bind to powiazanie ze stanem w tym przypadku on release czyli zwolnienie myszki guzika
 
        #setcolor = Button(text='kolor')
        #setcolor.bind(on_release=self.set_color)  # bind to powiazanie ze stanem w tym przypadku on release czyli zwolnienie myszki guzika
 
-        self.layout.add_widget(parent)
+        #self.layout.add_widget(parent)
        #self.layout.add_widget(clearbtn)
        #self.layout.add_widget(setcolor)
-        return self.layout
+        #return self.layout
+        return parent
 
     def clear_canvas(self, obj):
         self.painter.canvas.clear()
