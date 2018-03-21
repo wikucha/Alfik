@@ -4,9 +4,9 @@
     size: 50, 50
     Label:
         text: "a"
-        pos: self.pos
-        size: self.size
-    text:"a"
+        pos: root.pos
+
+
 
 <PongPaddle>:
     size: 25, 200
@@ -14,7 +14,6 @@
         Rectangle:
             pos:self.pos
             size:self.size
-    text: "a"
 
 <PongGame>:
     ball: pong_ball
@@ -41,6 +40,10 @@
     PongBall:
         id: pong_ball
         center: self.parent.center
+    PongBall:
+        id: pong_ball2
+        center: self.parent.center
+
 
     PongPaddle:
         id: player_left
