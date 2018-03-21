@@ -31,3 +31,6 @@ translate = {'а': {'translation': 'a', 'word': 'мама', 'sound':'sound/rus/A
  'э': {'translation': 'e', 'word': 'это','sound':'sound/rus/E.wav'},
  'ю': {'translation': 'ju', 'word': 'люди','sound':'sound/rus/Ju.wav'},
  'я': {'translation': 'ja', 'word': 'имя','sound':'sound/rus/Ja.wav'}}
+
+
+

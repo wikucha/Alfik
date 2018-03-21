@@ -45,9 +45,11 @@ class CarouselApp(App):
             layout = builder.Builder.load_file("learn_layout.kv")
             carousel.add_widget(layout)
 
+            slowo = layout.ids.slowo
             duza_litera = layout.ids.duza_litera
             duza_litera = layout.ids['duza_litera'] # komenda równoznaczna z komendą powyżej
             duza_litera.text = litera
+            slowo.text = lang["translate"][litera]["word"]
 
             layout.ids.zamien_litere.bind(
                on_release= action(duza_litera, litera, litera_tlumaczenie)
@@ -57,6 +59,7 @@ class CarouselApp(App):
 
             layout.ids.play_sound.bind(
                 on_release= play_sound(litera_sound)
+
             )
 
 
