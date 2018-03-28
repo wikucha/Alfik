@@ -22,6 +22,7 @@ Alfik to aplikacja tworzona w języku programowania Python z pomocą framework K
 ### Wspierane języki
 
 - Rosyjski
+- Francuski
 
   Czekamy na więcej! :)
 
