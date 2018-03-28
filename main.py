@@ -4,7 +4,33 @@ from kivy.core.window import Window
 from kivy.graphics import Rectangle, Color
 from kivy.core.audio import SoundLoader
 from kivy.lang import builder
+import pickle
 
+def aktywuj(przycisk, stan=True):
+
+    if przycisk.aktywny != stan:
+        n= przycisk.background_normal
+        przycisk.background_normal =przycisk.background_down
+        przycisk.background_down = n
+        przycisk.aktywny = stan
+
+    return stan
+
+def dodaj_ulub(ulubione, litera, przycisk, przycisk_tlo_normal, przycisk_tlo_down):
+
+    def add(obj):
+
+        if przycisk.aktywny:
+            ulubione.remove(litera)
+            aktywuj(przycisk, False)
+        else:
+            ulubione.append(litera)
+            aktywuj(przycisk, True)
+        n = przycisk.background_normal
+
+        pickle.dump(ulubione, open("ulubione.p", "wb"))
+        print(ulubione)
+    return add
 
 def load_lang(file_name):
     lang = {}
@@ -33,6 +59,8 @@ class CarouselApp(App):
     def build(self):
         carousel = Carousel(direction='right')
         lang=load_lang("lang/rus/config.py")
+        ulubione= pickle.load(open("ulubione.p", "rb"))
+        #ulubione = []
         # lang = {"translate":  {'а': {'translation': 'a', 'word': 'мама'}, 'б': {'translation': 'b', 'word': 'бумага'}}}
 
 
@@ -53,6 +81,15 @@ class CarouselApp(App):
 
             layout.ids.zamien_litere.bind(
                on_release= action(duza_litera, litera, litera_tlumaczenie)
+            )
+
+            pulub=layout.ids.fav
+            pulub.aktywny = False
+            if litera in ulubione:
+                aktywuj(pulub, True)
+
+            pulub.bind(
+                on_release=dodaj_ulub(ulubione, litera, pulub, pulub.background_normal, pulub.background_down)
             )
 
             litera_sound = lang["translate"][litera]["sound"]
