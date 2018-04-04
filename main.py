@@ -6,6 +6,7 @@ from kivy.core.audio import SoundLoader
 from kivy.lang import builder
 import pickle
 
+
 def aktywuj(przycisk, stan=True):
 
     if przycisk.aktywny != stan:
@@ -16,6 +17,7 @@ def aktywuj(przycisk, stan=True):
 
     return stan
 
+#button ulubione
 def dodaj_ulub(ulubione, litera, przycisk, przycisk_tlo_normal, przycisk_tlo_down):
 
     def add(obj):
@@ -37,6 +39,7 @@ def load_lang(file_name):
     exec(open(file_name, encoding="utf-8").read(), lang)
     return lang
 
+#zmiana litery
 def action(label, org, translate):
     def change(obj):
         if label.text == org:
@@ -45,6 +48,7 @@ def action(label, org, translate):
             label.text = org
     return change
 
+#dźwięki
 def play_sound(plik):
     def play_action(obj):
         if plik is None: return
@@ -55,6 +59,7 @@ def play_sound(plik):
             sound.play()
     return play_action
 
+#karuzela
 class CarouselApp(App):
     def build(self):
         carousel = Carousel(direction='right')
@@ -63,11 +68,11 @@ class CarouselApp(App):
         #ulubione = []
         # lang = {"translate":  {'а': {'translation': 'a', 'word': 'мама'}, 'б': {'translation': 'b', 'word': 'бумага'}}}
 
-
+        #tło
         with carousel.canvas:
             Color(1,1,1)
             Rectangle(source="img/tlo.png", pos=carousel.pos,size=Window.size)
-
+        #tłumaczenie słowa-połaczenie z layoutem
         for litera in lang["translate"]:
             litera_tlumaczenie = lang["translate"][litera]["translation"]
             layout = builder.Builder.load_file("learn_layout.kv")
@@ -83,6 +88,7 @@ class CarouselApp(App):
                on_release= action(duza_litera, litera, litera_tlumaczenie)
             )
 
+            #utrzymanie przycisku
             pulub=layout.ids.fav
             pulub.aktywny = False
             if litera in ulubione:
