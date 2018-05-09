@@ -31,7 +31,6 @@ def dodaj_ulub(ulubione, litera, przycisk, przycisk_tlo_normal, przycisk_tlo_dow
         n = przycisk.background_normal
 
         pickle.dump(ulubione, open("ulubione.p", "wb"))
-        print(ulubione)
     return add
 
 def load_lang(file_name):
