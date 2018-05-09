@@ -32,14 +32,14 @@ def action(button, color):
         button.background_color=color
         button.disabled = True
         global wybrane_przyciski
+        wybrane_przyciski.append(button)
         print(len(wybrane_przyciski))
-        if len(wybrane_przyciski) > 0:
-            wybrane_przyciski.clear()
+        if len(wybrane_przyciski) > 1:
             # sprawdz czy poprawne przyciski
             for b in wybrane_przyciski:
                 b.disabled = False
-        else:
-            wybrane_przyciski.append(button)
+            wybrane_przyciski.clear()
+
     return change
 #dźwięki
 def play_sound(plik):
