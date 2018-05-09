@@ -1,62 +1,22 @@
-<GridLayout>
-    rows: 6
-    padding: 10
-    spacing: 10
+GridLayout:
+    rows: 2
+    size_hint: (None, None)
+
+    GridLayout:
+
+        cols:3
         Label:
-            text: "twoje błędy:"
-            font_size= 20
         Label:
             text: "DOPASUJ W PARY"
-            font_size= 40
-        BoxLayout:
-            Button:
-                id: btn1_1
-                font_size= 20
-            Button:
-                id: btn1_2
-                font_size= 20
-            Button:
-                id: btn1_3
-                font_size= 20
-            Button:
-                id: btn1_4
-                font_size= 20
-        BoxLayout:
-            Button:
-                id: btn2_1
-                font_size= 20
-            Button:
-                id: btn2_2
-                font_size= 20
-            Button:
-                id: btn2_3
-                font_size= 20
-            Button:
-                id: btn2_4
-                font_size= 20
-        BoxLayout:
-            Button:
-                id: btn3_1
-                font_size= 20
-            Button:
-                id: btn3_2
-                font_size= 20
-            Button:
-                id: btn3_3
-                font_size= 20
-            Button:
-                id: btn3_4
-                font_size= 20
-        BoxLayout:
-            Button:
-                id: btn4_1
-                font_size= 20
-            Button:
-                id: btn4_2
-                font_size= 20
-            Button:
-                id: btn4_3
-                font_size= 20
-            Button:
-                id: btn4_4
-                font_size= 20
+            font_size: 40
+            height: 300
+        Label:
+    GridLayout:
+        cols:3
+        Label:
+        Label:
+            text: "twoje bledy:"
+            font_size:20
+            height: 300
+
+
