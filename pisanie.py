@@ -68,6 +68,9 @@ class MyPaintApp(App):
     def set_color(self,color):
         self.painter.color=(random(),1,1)
 
+    for
+        layout = builder.Builder.load_file("learn_layout.kv")
+
 
 if __name__ == '__main__':
     MyPaintApp().run()

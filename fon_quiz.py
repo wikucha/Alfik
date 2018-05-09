@@ -4,19 +4,25 @@ from kivy.core.window import Window
 from kivy.graphics import Rectangle, Color
 from kivy.core.audio import SoundLoader
 from kivy.lang import builder
+from kivy.properties import NumericProperty, StringProperty
 
 import random
 
-
+licznik_wynik=0
 
 def load_lang(file_name):
     lang = {}
     exec(open(file_name, encoding="utf-8").read(), lang)
     return lang
 
-def action(button, color, buttons):
+def action(button, color, buttons, wynik, czy_prawda):
     def change(obj):
         button.background_color=color
+
+        if czy_prawda:
+            global licznik_wynik
+            licznik_wynik+=1
+            wynik.text = str(licznik_wynik)
 
         for B in buttons:
             B.disabled = True
@@ -33,6 +39,7 @@ def play_sound(plik):
     return play_action
 
 class CarouselApp(App):
+    a = NumericProperty(1.0)
     def build(self):
         carousel = Carousel(direction='right')
         lang=load_lang("lang/rus/config.py")
@@ -45,7 +52,13 @@ class CarouselApp(App):
             Color(1,1,1)
             Rectangle(source="img/tlo.png", pos=carousel.pos,size=Window.size)
 
-        for litera in lang["translate"]:
+        wszystkie_litery_alf = list(lang["translate"].keys())
+
+        random.shuffle(wszystkie_litery_alf)
+
+        for litera in wszystkie_litery_alf:
+            litera_sound = lang["translate"][litera]["sound"]
+            if litera_sound is None: continue
             litera_tlumaczenie = lang["translate"][litera]["translation"]
             layout = builder.Builder.load_file("fon_quiz_layout.kv")
             carousel.add_widget(layout)
@@ -70,12 +83,13 @@ class CarouselApp(App):
             for Przycisk, wybrana_litera in zip(buttons, wybrane_litery):
                 Przycisk.text = wybrana_litera
                 if litera == wybrana_litera:
-                    Przycisk.bind(on_release=action(Przycisk, odp_true, buttons))
+                    Przycisk.bind(on_release=action(Przycisk, odp_true, buttons, layout.ids.wynik, True))
+                    layout.ids.wynik.text = str(licznik_wynik)
                 else:
-                    Przycisk.bind(on_release=action(Przycisk, odp_false, buttons))
+                    Przycisk.bind(on_release=action(Przycisk, odp_false, buttons, layout.ids.wynik, False))
 
 
-            litera_sound = lang["translate"][litera]["sound"]
+
 
             layout.ids.play_sound.bind(
                 on_release= play_sound(litera_sound)
