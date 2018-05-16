@@ -10,6 +10,7 @@ Alfik to aplikacja tworzona w języku programowania Python z pomocą framework K
 
 ##### Dostępne gry
 • Memory - klasyczna gra w pary. Polega na dopasowywaniu obcojęzycznych znaków do ich polskich odpowiedników. Pomaga utrwalić opanowane już znaki.
+
 • Audio Quiz - słuchaj i wybieraj. Po odtowrzeniu dźwięku musisz wybra odpowiadający mu dźwięk. Pomaga w nauce wymowy danych dźwięków.
 
 ### Członkowie projektu
