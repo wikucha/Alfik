@@ -27,19 +27,34 @@ def load_lang(file_name):
     return lang
 
 wybrane_przyciski = []
-def action(button, color):
+def action(button, color,wynik):
     def change(obj):
+        stary_kolor = button.background_color
         button.background_color=color
         button.disabled = True
         global wybrane_przyciski
         wybrane_przyciski.append(button)
         print(len(wybrane_przyciski))
-        if len(wybrane_przyciski) > 1:
-            # sprawdz czy poprawne przyciski
-            for b in wybrane_przyciski:
-                b.disabled = False
-            wybrane_przyciski.clear()
 
+        if len(wybrane_przyciski) > 1:
+
+            if wybrane_przyciski[0].tlumaczenie == wybrane_przyciski[1].tlumaczenie:
+
+                x = wynik.ids.licznik.text
+                wynik.ids.licznik.text = str(int(x) + 1)
+                # sprawdz czy poprawne przyciski
+                for b in wybrane_przyciski:
+                    b.disabled = True
+                    b.background_color=(0.5, 0.8, 0.1,1)
+            else:
+                for b in wybrane_przyciski:
+                    b.background_color = stary_kolor
+                    b.disabled = False
+
+
+
+                wybrane_przyciski.clear()
+            wybrane_przyciski.clear()
     return change
 #dźwięki
 def play_sound(plik):
@@ -84,16 +99,26 @@ class CarouselApp(App):
 
         lista = []
         lista.extend(wybrane_litery)
+        random.shuffle(wybrane_przyciski)
+
         lista.extend(tlumaczenie_wybrane_litery)
+        random.shuffle(tlumaczenie_wybrane_litery)
+
 
         random.shuffle(lista)
-        for i in lista:
+        for litera in wybrane_litery:
 
-            Przycisk = Button(text=str(i), background_color=(0, 0, 0, 0.2))
+            Przycisk = Button(text=str(litera), background_color=(0, 0, 0, 0.3))
+            Przycisk.tlumaczenie = lang["translate"][litera]["translation"]
             layout.add_widget(Przycisk)
-            Przycisk.bind(on_release=action(Przycisk, (0.4, 0.6, 1, 1)))
+            Przycisk.bind(on_release=action(Przycisk, (0.5, 0.8, 0.1, 0.7), layout_top))
 
+        for litera in tlumaczenie_wybrane_litery:
 
+            Przycisk = Button(text=str(litera), background_color=(0, 0, 0, 0.2))
+            Przycisk.tlumaczenie = litera
+            layout.add_widget(Przycisk)
+            Przycisk.bind(on_release=action(Przycisk, (0.5, 0.8, 0.1, 0.7), layout_top))
 
 
 

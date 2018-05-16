@@ -5,6 +5,8 @@ from kivy.graphics import Rectangle, Color
 from kivy.core.audio import SoundLoader
 from kivy.lang import builder
 from kivy.properties import NumericProperty, StringProperty
+from kivy.uix.gridlayout import GridLayout
+
 
 import random
 
@@ -15,14 +17,15 @@ def load_lang(file_name):
     exec(open(file_name, encoding="utf-8").read(), lang)
     return lang
 
-def action(button, color, buttons, wynik, czy_prawda):
+def action(button, color, buttons, wynik, czy_prawda, layout_top):
     def change(obj):
         button.background_color=color
 
         if czy_prawda:
             global licznik_wynik
-            licznik_wynik+=1
-            wynik.text = str(licznik_wynik)
+            x = wynik.ids.licznik.text
+            wynik.ids.licznik.text = str(int(x) + 1)
+
 
         for B in buttons:
             B.disabled = True
@@ -41,8 +44,16 @@ def play_sound(plik):
 class CarouselApp(App):
     a = NumericProperty(1.0)
     def build(self):
+        box = GridLayout(cols=1,padding= 50, spacing= 10)
+
         carousel = Carousel(direction='right')
         lang=load_lang("lang/rus/config.py")
+        layout_top = builder.Builder.load_file("fon_quiz_layout_top.kv")
+        box.add_widget(layout_top)
+        box.add_widget(carousel)
+
+
+
 
         #ulubione = []
         # lang = {"translate":  {'а': {'translation': 'a', 'word': 'мама'}, 'б': {'translation': 'b', 'word': 'бумага'}}}
@@ -83,10 +94,10 @@ class CarouselApp(App):
             for Przycisk, wybrana_litera in zip(buttons, wybrane_litery):
                 Przycisk.text = wybrana_litera
                 if litera == wybrana_litera:
-                    Przycisk.bind(on_release=action(Przycisk, odp_true, buttons, layout.ids.wynik, True))
+                    Przycisk.bind(on_release=action(Przycisk, odp_true, buttons, layout.ids.wynik, True, layout_top))
                     layout.ids.wynik.text = str(licznik_wynik)
                 else:
-                    Przycisk.bind(on_release=action(Przycisk, odp_false, buttons, layout.ids.wynik, False))
+                    Przycisk.bind(on_release=action(Przycisk, odp_false, buttons, layout.ids.wynik, False, layout_top))
 
 
 
