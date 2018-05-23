@@ -6,12 +6,7 @@
 
 ### O Alfiku
 
-Alfik to aplikacja tworzona w języku programowania Python z pomocą framework Kivy przez grupę licealistów - miłośników programowania w ramach konkursu _Programowanie zespołowe 2.0_. Nasza aplikacja ma na celu służyć użytkownikom chcącym nauczyć się nowych języków. A od czego najlepiej zacząć tę naukę? Podstawą każdego języka jest alfabet, dlatego nasz zespół zajmuje się tworzeniem aplikacji pomagającej stworzyć silne fundamenty pod naukę języków obcych.
-
-##### Dostępne gry
-• Memory - klasyczna gra w pary. Polega na dopasowywaniu obcojęzycznych znaków do ich polskich odpowiedników. Pomaga utrwalić opanowane już znaki.
-
-• Audio Quiz - słuchaj i wybieraj. Po odtowrzeniu dźwięku musisz wybra odpowiadający mu dźwięk. Pomaga w nauce wymowy danych dźwięków.
+Alfik to aplikacja tworzona w języku programowania Python z pomocą framework Kivy przez grupę licealistów- miłośników programowania w ramach konkursu _Programowanie zespołowe 2.0_. Nasza aplikacja ma na celu służyć użytkownikom chcącym nauczyć się nowych języków. A od czego najlepiej zacząć tę naukę? Podstawą każdego języka jest alfabet, dlatego nasz zespół zajmuje się tworzeniem aplikacji pomagającej stworzyć silne fundamenty pod naukę języków obcych.
 
 ### Członkowie projektu
 
@@ -27,9 +22,7 @@ Alfik to aplikacja tworzona w języku programowania Python z pomocą framework K
 ### Wspierane języki
 
 - Rosyjski
-- Francuski (fonetyczny)
-- Japoński
-- Grecki
+- Francuski
 
   Czekamy na więcej! :)
 

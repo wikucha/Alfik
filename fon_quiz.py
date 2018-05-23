@@ -17,14 +17,14 @@ def load_lang(file_name):
     exec(open(file_name, encoding="utf-8").read(), lang)
     return lang
 
-def action(button, color, buttons, wynik, czy_prawda, layout_top):
+def action(app, button, color, buttons, czy_prawda):
+
     def change(obj):
         button.background_color=color
 
         if czy_prawda:
-            global licznik_wynik
-            x = wynik.ids.licznik.text
-            wynik.ids.licznik.text = str(int(x) + 1)
+
+            app.score+=1
 
 
         for B in buttons:
@@ -42,7 +42,7 @@ def play_sound(plik):
     return play_action
 
 class CarouselApp(App):
-    a = NumericProperty(1.0)
+    score= NumericProperty(0)
     def build(self):
         box = GridLayout(cols=1,padding= 50, spacing= 10)
 
@@ -71,18 +71,18 @@ class CarouselApp(App):
             litera_sound = lang["translate"][litera]["sound"]
             if litera_sound is None: continue
             litera_tlumaczenie = lang["translate"][litera]["translation"]
-            layout = builder.Builder.load_file("fon_quiz_layout.kv")
-            carousel.add_widget(layout)
+            #layout = builder.Builder.load_file("fon_quiz_layout.kv")
+            #carousel.add_widget(layout)
 
             odp_false=(1,0.2,0,0.8)
             odp_true = (0, 1, 0, 0.8)
 
-            odp_A=layout.ids.odp_A
-            odp_B = layout.ids.odp_B
-            odp_C = layout.ids.odp_C
-            odp_D = layout.ids.odp_D
+            #odp_A=layout.ids.odp_A
+            #odp_B = layout.ids.odp_B
+            #odp_C = layout.ids.odp_C
+            #odp_D = layout.ids.odp_D
 
-            buttons=[odp_A,odp_B,odp_C,odp_D]
+            #buttons=[odp_A,odp_B,odp_C,odp_D]
 
             wszystkie_litery = list(lang["translate"].keys())
             wszystkie_litery.remove(litera)
@@ -94,10 +94,9 @@ class CarouselApp(App):
             for Przycisk, wybrana_litera in zip(buttons, wybrane_litery):
                 Przycisk.text = wybrana_litera
                 if litera == wybrana_litera:
-                    Przycisk.bind(on_release=action(Przycisk, odp_true, buttons, layout.ids.wynik, True, layout_top))
-                    layout.ids.wynik.text = str(licznik_wynik)
+                    Przycisk.bind(on_release=action(self,Przycisk, odp_true, buttons,  True))
                 else:
-                    Przycisk.bind(on_release=action(Przycisk, odp_false, buttons, layout.ids.wynik, False, layout_top))
+                    Przycisk.bind(on_release=action(self,Przycisk, odp_false, buttons,  False))
 
 
 
