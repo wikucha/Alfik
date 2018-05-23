@@ -40,8 +40,7 @@ def action(button, color,wynik):
 
             if wybrane_przyciski[0].tlumaczenie == wybrane_przyciski[1].tlumaczenie:
 
-                x = wynik.ids.licznik.text
-                wynik.ids.licznik.text = str(int(x) + 1)
+
                 # sprawdz czy poprawne przyciski
                 for b in wybrane_przyciski:
                     b.disabled = True
@@ -50,6 +49,8 @@ def action(button, color,wynik):
                 for b in wybrane_przyciski:
                     b.background_color = stary_kolor
                     b.disabled = False
+                x = wynik.ids.licznik.text
+                wynik.ids.licznik.text = str(int(x) + 1)
 
 
 
