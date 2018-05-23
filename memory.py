@@ -27,16 +27,15 @@ def load_lang(file_name):
     return lang
 
 wybrane_przyciski = []
-def action(button, color,wynik):
+def action(button, color):
     def change(obj):
-        stary_kolor = button.background_color
         button.background_color=color
         button.disabled = True
         global wybrane_przyciski
         wybrane_przyciski.append(button)
         print(len(wybrane_przyciski))
-
         if len(wybrane_przyciski) > 1:
+<<<<<<< HEAD
 
             if wybrane_przyciski[0].tlumaczenie == wybrane_przyciski[1].tlumaczenie:
 
@@ -55,7 +54,13 @@ def action(button, color,wynik):
 
 
                 wybrane_przyciski.clear()
+=======
+            # sprawdz czy poprawne przyciski
+            for b in wybrane_przyciski:
+                b.disabled = False
+>>>>>>> 30c991cc2f00918fea086bdfde9391ec4849daca
             wybrane_przyciski.clear()
+
     return change
 #dźwięki
 def play_sound(plik):
@@ -100,26 +105,16 @@ class CarouselApp(App):
 
         lista = []
         lista.extend(wybrane_litery)
-        random.shuffle(wybrane_przyciski)
-
         lista.extend(tlumaczenie_wybrane_litery)
-        random.shuffle(tlumaczenie_wybrane_litery)
-
 
         random.shuffle(lista)
-        for litera in wybrane_litery:
+        for i in lista:
 
-            Przycisk = Button(text=str(litera), background_color=(0, 0, 0, 0.3))
-            Przycisk.tlumaczenie = lang["translate"][litera]["translation"]
+            Przycisk = Button(text=str(i), background_color=(0, 0, 0, 0.2))
             layout.add_widget(Przycisk)
-            Przycisk.bind(on_release=action(Przycisk, (0.5, 0.8, 0.1, 0.7), layout_top))
+            Przycisk.bind(on_release=action(Przycisk, (0.4, 0.6, 1, 1)))
 
-        for litera in tlumaczenie_wybrane_litery:
 
-            Przycisk = Button(text=str(litera), background_color=(0, 0, 0, 0.2))
-            Przycisk.tlumaczenie = litera
-            layout.add_widget(Przycisk)
-            Przycisk.bind(on_release=action(Przycisk, (0.5, 0.8, 0.1, 0.7), layout_top))
 
 
 

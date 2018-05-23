@@ -75,11 +75,14 @@ class MyPaintApp(App):
         grid.add_widget(layout)
 
 
-        poprawny = Button(text="T")
+        poprawny = Button(text="poprawny")
         poprawny.bind(on_release= get_check(self.textw.text, 1))
 
-        niepoprawny = Button(text="N")
+        niepoprawny = Button(text="niepoprawny")
         niepoprawny.bind(on_release= get_check(self.textw.text, 0))
+
+
+
 
         layout2 = GridLayout(cols=2)
         grid.add_widget(layout2)
@@ -131,6 +134,7 @@ class MyPaintApp(App):
         self.painter.color=(random(),1,1)
 
 def tversky(A,B, AB, alpha, betha):
+
     return (AB / (AB + alpha * (len(A) - AB) + betha * (len(B) - AB)))
 
 def tversky2(A,B, alpha, betha):
