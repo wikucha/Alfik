@@ -1,11 +1,12 @@
 GridLayout:
     rows: 2
-    size_hint: (None, None)
+    size_hint: (1, 0.2)
 
     GridLayout:
-
         cols:3
         rows:2
+
+
         Label:
         Label:
             text: "DOPASUJ W PARY"
@@ -13,16 +14,19 @@ GridLayout:
             height: 300
         Label:
 
-
     GridLayout:
-        cols:3
+        cols:7
+        Label:
+        Label:
         Label:
             text: "wynik: "
+
         Label:
             id: licznik
             text: "0"
-            font_size:20
+            font_size:40
             height: 300
-
+        Label:
+        Label:
 
 
