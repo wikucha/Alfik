@@ -6,6 +6,8 @@ from kivy.uix.widget import Widget
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.button import Button
 from kivy.graphics import Color, Ellipse,Line,Rectangle
+from kivy.lang import builder
+
 
 class MyPaintWidget(Widget):
 
@@ -68,8 +70,8 @@ class MyPaintApp(App):
     def set_color(self,color):
         self.painter.color=(random(),1,1)
 
-    for
-        layout = builder.Builder.load_file("learn_layout.kv")
+
+    layout = builder.Builder.load_file("learn_layout.kv")
 
 
 if __name__ == '__main__':
