@@ -76,6 +76,8 @@ class CarouselApp(App):
             litera_tlumaczenie = lang["translate"][litera]["translation"]
             layout = builder.Builder.load_file("learn_layout.kv")
             carousel.add_widget(layout)
+            if 'size' in lang["translate"][litera].keys():
+                duza_litera.font_size = lang["translate"][litera]['size']
 
             slowo = layout.ids.slowo
             duza_litera = layout.ids.duza_litera
