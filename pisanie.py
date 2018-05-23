@@ -6,6 +6,8 @@ from kivy.uix.widget import Widget
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.button import Button
 from kivy.graphics import Color, Ellipse,Line,Rectangle
+from kivy.lang import builder
+
 
 def tree2(C1, C3,):
   if C1 <= 0.73252260685:
@@ -68,7 +70,31 @@ class MyPaintApp(App):
         parent.add_widget(text2)
 
         parent.add_widget(self.painter)
-        return parent
+        layout = builder.Builder.load_file("learn_layout_pisanie.kv")
+
+        def clear_canvas(obj):
+            self.painter.canvas.clear()
+
+        def get_check(litera, correct):
+            def check(obj):
+                self.check_accuracy(obj, litera, correct)
+
+            return check
+
+        checkbtn = layout.ids.check
+        clearbtn = layout.ids.clear
+        nextbtn = layout.ids.next
+
+        print(clearbtn)
+
+        clearbtn.bind(on_release=clear_canvas)
+        nextbtn.bind(on_release=lambda x: self.next_l(x))
+        checkbtn.bind(on_release=self.get_check)
+
+        layout.add_widget(parent)
+
+
+        return layout
     
     def check_accuracy(self, obj, litera, correct):
         self.painter.size = Window.size
@@ -87,6 +113,10 @@ class MyPaintApp(App):
 
         C1 = tversky(A, B, AB, 0.9, 0.1)
         C3 = tversky(A, B, AB, 0.5, 0.5)
+
+        return C1,C3
+
+
        #clearbtn = Button(text='Clear')#tej zmiennej nie bedzie widac po wyjsciu  z funkcji
        #clearbtn.bind(on_release=self.clear_canvas)#bind to powiazanie ze stanem w tym przypadku on release czyli zwolnienie myszki guzika
 
@@ -99,13 +129,8 @@ class MyPaintApp(App):
         #return self.layout
 
 
-    def clear_canvas(self, obj):
-        self.painter.canvas.clear()
-    def set_color(self,color):
-        self.painter.color=(random(),1,1)
 
-    for
-        layout = builder.Builder.load_file("learn_layout.kv")
+
 
 
 if __name__ == '__main__':
