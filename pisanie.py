@@ -7,6 +7,23 @@ from kivy.uix.gridlayout import GridLayout
 from kivy.uix.button import Button
 from kivy.graphics import Color, Ellipse,Line,Rectangle
 
+def tree2(C1, C3,):
+  if C1 <= 0.73252260685:
+    if C1 <= 0.63205075264:
+      return 0
+    else:
+      if C3 <= 0.475483775139:
+        return 0
+      else:
+        return 1
+  else:
+    return 1
+
+def tversky(A,B, AB, alpha, betha):
+    return (AB / (AB + alpha * (len(A) - AB) + betha * (len(B) - AB)))
+
+
+
 class MyPaintWidget(Widget):
 
     def __init__(self,**kwargs):
@@ -51,6 +68,25 @@ class MyPaintApp(App):
         parent.add_widget(text2)
 
         parent.add_widget(self.painter)
+        return parent
+    
+    def check_accuracy(self, obj, litera, correct):
+        self.painter.size = Window.size
+        self.textw.size = Window.size
+        self.painter.export_to_png("test.png")
+        self.textw.export_to_png("litera.png")
+
+        obrazek_1 = imageio.imread("./test.png", pilmode="L")
+        obrazek_1_lista = obrazek_1.flatten()
+
+        obrazek_2 = imageio.imread("./litera.png", pilmode="L")
+        obrazek_2_lista = obrazek_2.flatten()
+
+        A = np.nonzero(obrazek_1_lista)[0]
+        B = np.nonzero(obrazek_2_lista)[0]
+
+        C1 = tversky(A, B, AB, 0.9, 0.1)
+        C3 = tversky(A, B, AB, 0.5, 0.5)
        #clearbtn = Button(text='Clear')#tej zmiennej nie bedzie widac po wyjsciu  z funkcji
        #clearbtn.bind(on_release=self.clear_canvas)#bind to powiazanie ze stanem w tym przypadku on release czyli zwolnienie myszki guzika
 
@@ -61,7 +97,7 @@ class MyPaintApp(App):
        #self.layout.add_widget(clearbtn)
        #self.layout.add_widget(setcolor)
         #return self.layout
-        return parent
+
 
     def clear_canvas(self, obj):
         self.painter.canvas.clear()
