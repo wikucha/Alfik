@@ -1,0 +1,40 @@
+<MenuScreen>:
+    GridLayout:
+        rows:4
+        Label:
+        BoxLayout:
+            Button:
+                text: 'RUS'
+                on_press: app.current_lang = "rus"
+            Button:
+                text: 'FR'
+                on_press: app.current_lang = "fr"
+        BoxLayout:
+            Button:
+                text: 'Goto settings'
+                on_press: root.manager.current = 'settings'
+            Button:
+                text: 'Goto GAME'
+                on_press: root.manager.current = 'game'
+
+            Button:
+                text: 'Goto Memory'
+                on_press: root.manager.current = 'memory'
+
+            Button:
+                text: 'Quit'
+                on_press: app.stop()
+
+        Label:
+
+<SettingsScreen>:
+    GridLayout:
+        rows:4
+        Label:
+        BoxLayout:
+            Button:
+                text: 'My settings button'
+            Button:
+                text: 'Back to menu'
+                on_press: root.manager.current = 'menu'
+        Label:

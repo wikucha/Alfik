@@ -1,0 +1,52 @@
+<MenuScreen>:
+    GridLayout:
+        rows:4
+        Label:
+        BoxLayout:
+            Label:
+            Label:
+            Button:
+                background_normal: 'img/rus.png'
+                on_press: app.current_lang = "rus"
+            Button:
+                background_normal: 'img/fr.png'
+                on_press: app.current_lang = "fr"
+            Label:
+            Label:
+        BoxLayout:
+            Label:
+            Button:
+                background_normal: 'img/main.png'
+                on_press: root.manager.current = 'game'
+            Button:
+                background_normal: 'img/memory.png'
+                on_press: root.manager.current = 'memory'
+            Button:
+                background_normal: 'img/fonquiz.png'
+                on_press: root.manager.current = 'fonquiz'
+            Button:
+                background_normal: 'img/pisanie.png'
+                on_press: root.manager.current = 'settings'
+            Label:
+
+
+        BoxLayout:
+            Label:
+            Label:
+            Button:
+                background_normal: 'img/quit.png'
+                on_press: app.stop()
+            Label:
+            Label:
+
+<SettingsScreen>:
+    GridLayout:
+        rows:4
+        Label:
+        BoxLayout:
+            Button:
+                text: 'My settings button'
+            Button:
+                text: 'Back to menu'
+                on_press: root.manager.current = 'menu'
+        Label:
