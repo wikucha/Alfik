@@ -137,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="941" />
     <option name="width" value="974" />
     <option name="height" value="1084" />
@@ -222,6 +222,7 @@
   </component>
   <component name="RunManager" selected="Python.fon_quiz">
     <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Alfik" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -232,7 +233,6 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Alfik" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lang/rus/config.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -240,6 +240,7 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="fon_quiz" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Alfik" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -250,7 +251,6 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Alfik" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fon_quiz.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -258,6 +258,7 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Alfik" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -268,7 +269,6 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Alfik" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -276,6 +276,7 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="memory" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Alfik" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -286,7 +287,6 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Alfik" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/memory.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -294,6 +294,7 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="porownywanie_liter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Alfik" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -304,32 +305,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Alfik" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/porownywanie_liter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.config" />
-      <item index="1" class="java.lang.String" itemvalue="Python.porownywanie_liter" />
-      <item index="2" class="java.lang.String" itemvalue="Python.fon_quiz" />
-      <item index="3" class="java.lang.String" itemvalue="Python.main" />
-      <item index="4" class="java.lang.String" itemvalue="Python.memory" />
+    <list>
+      <item itemvalue="Python.config" />
+      <item itemvalue="Python.porownywanie_liter" />
+      <item itemvalue="Python.fon_quiz" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.memory" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.fon_quiz" />
-        <item index="1" class="java.lang.String" itemvalue="Python.memory" />
-        <item index="2" class="java.lang.String" itemvalue="Python.main" />
-        <item index="3" class="java.lang.String" itemvalue="Python.porownywanie_liter" />
-        <item index="4" class="java.lang.String" itemvalue="Python.config" />
+      <list>
+        <item itemvalue="Python.fon_quiz" />
+        <item itemvalue="Python.memory" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.porownywanie_liter" />
+        <item itemvalue="Python.config" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
