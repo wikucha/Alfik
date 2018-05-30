@@ -19,7 +19,7 @@ translate = { 'あ': {'translation': 'a', 'word': 'ありがとう', 'sound':' '
 'て': {'translation': 'te', 'word': 'よてい', 'sound':' ' },
 'と': {'translation': 'to', 'word': 'とし', 'sound':' ' },
 'な': {'translation': 'na', 'word': 'はな', 'sound':' ' },
-'に': {'translation': 'ni', 'word': 'にもつ', 'sound':' ' },	
+'に': {'translation': 'ni', 'word': 'にもつ', 'sound':' ' },
 'ぬ': {'translation': 'nu', 'word': 'ぬれる', 'sound':' ' },
 'ね': {'translation': 'ne', 'word': 'ねずみ', 'sound':' ' },
 'の': {'translation': 'no', 'word': 'のど', 'sound':' ' },
