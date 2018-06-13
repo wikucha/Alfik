@@ -7,6 +7,7 @@ from kivy.core.window import Window
 from learn import LearnScreen
 from memory import MemoryScreen
 from fon_quiz import FonquizScreen
+from proba_pisanie import PaintScreen
 from tools import load_lang, load_ulubione
 
 Builder.load_file("app.kv")
@@ -15,9 +16,6 @@ Builder.load_file("app.kv")
 class MenuScreen(Screen):
     pass
 
-# Ekran z ustawieniami
-class SettingsScreen(Screen):
-    pass
 
 # Główna aplikacja zarządzająca grami
 class MainApp(App):
@@ -64,7 +62,7 @@ class MainApp(App):
         sm.add_widget(LearnScreen(name='game'))
         sm.add_widget(MemoryScreen(name='memory'))
         sm.add_widget(FonquizScreen(name='fonquiz'))
-        sm.add_widget(SettingsScreen(name='settings'))
+        sm.add_widget(PaintScreen(name='paint'))
 
         return sm
 
