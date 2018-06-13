@@ -1,6 +1,6 @@
 
 translate = {
- 'ai': {'translation': 'e', 'word': 'éclair', 'sound':''},
+ 'ai': {'translation': 'e', 'word': 'éclair', 'sound':'sound/franc/ai.mp3'},
  'au': {'translation': 'o', 'word': 'auteur', 'sound':''},
  'ou': {'translation': 'u', 'word': 'boutique', 'sound':''},
  'oi': {'translation': 'ła', 'word': 'anchois', 'sound':''},
