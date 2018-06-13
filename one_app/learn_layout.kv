@@ -1,11 +1,14 @@
 GridLayout:
     rows: 6
     GridLayout:
-        cols: 7
-        Label:
+        cols: 10
         Button:
-            text: 'menu'
             on_press: app.root.current = 'menu'
+            background_normal: 'img/menu.png'
+            size_hint: (None, None)
+        Label:
+        Label:
+        Label:
         Button:
             id: fav
             background_normal: 'img/unactive.png'
@@ -19,7 +22,6 @@ GridLayout:
             id: play_sound
             background_normal: 'img/dzwiek.png'
             size_hint: (None, None)
-        Label:
     GridLayout:
     Label:
         id: duza_litera
