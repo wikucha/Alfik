@@ -60,4 +60,6 @@ def play_sound(plik):
         sound = SoundLoader.load(plik)
         if sound:
             sound.play()
+        #else:
+        print(plik)
     return play_action

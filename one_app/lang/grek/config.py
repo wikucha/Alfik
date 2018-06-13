@@ -2,7 +2,7 @@ translate = { 'α': {'translation': 'alfa', 'word': 'η αγόρα', 'sound':'so
 'β': {'translation': 'beta', 'word': 'το βουνό', 'sound':'sound/grek/Beta.mp3' },
 'γ': {'translation': 'gamma', 'word': 'η γάτα', 'sound':'sound/grek/Gamma.mp3' },
 'δ': {'translation': 'delta', 'word': 'ο δρόμος', 'sound':'sound/grek/delta.mp3' },
-'ε': {'translation': 'epsilon', 'word': 'το έπιπλο', 'sound':'sound/grek/epsilom.mp3' },
+'ε': {'translation': 'epsilon', 'word': 'το έπιπλο', 'sound':'sound/grek/epsilon.mp3' },
 'ζ': {'translation': 'dzeta', 'word': 'η ζωή', 'sound':'sound/grek/dzeta.mp3' },
 'η': {'translation': 'eta', 'word': 'ο ήλιος', 'sound':'sound/grek/eta.mp3' },
 'θ': {'translation': 'theta', 'word': 'ο θέος', 'sound':'sound/grek/theta.mp3' },
