@@ -1,10 +1,9 @@
 <MenuScreen>:
     GridLayout:
-        rows:4
+        rows:6
+        Label:
         Label:
         BoxLayout:
-            Label:
-            Label:
             Button:
                 background_normal: 'img/rus.png'
                 on_press: app.current_lang = "rus"
@@ -17,10 +16,7 @@
             Button:
                 background_normal: 'img/japan.png'
                 on_press: app.current_lang = "jap"
-            Label:
-            Label:
         BoxLayout:
-            Label:
             Button:
                 background_normal: 'img/main.png'
                 on_press: root.manager.current = 'game'
@@ -33,16 +29,12 @@
             Button:
                 background_normal: 'img/pisanie.png'
                 on_press: root.manager.current = 'paint'
-            Label:
-
-
+        
         BoxLayout:
-            Label:
             Label:
             Button:
                 background_normal: 'img/quit.png'
                 on_press: app.stop()
-            Label:
             Label:
 
 <SettingsScreen>:
