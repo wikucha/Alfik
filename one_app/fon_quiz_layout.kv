@@ -1,6 +1,6 @@
 GridLayout:
-    rows: 5
-
+    rows: 6
+    Label:
     GridLayout:
         cols: 3
         rows:3
@@ -8,13 +8,13 @@ GridLayout:
         Button:
             on_press: app.root.current = 'menu'
             background_normal: 'img/menu.png'
-            size_hint: (None, None)
+            size_hint: (0.3, 0.2)
         Label:
 
         Button:
             id: play_sound
             background_normal: 'img/dzwiek.png'
-            size_hint: (None, None)
+            size_hint: (0.3, 0.2)
     GridLayout:
         cols:2
         Label:

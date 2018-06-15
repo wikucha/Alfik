@@ -1,31 +1,33 @@
 GridLayout:
-    rows: 6
+    rows: 9
     GridLayout:
-        cols: 10
+        cols: 7
         Button:
             on_press: app.root.current = 'menu'
             background_normal: 'img/menu.png'
-            size_hint: (None, None)
+            size_hint: (2, 2)
         Label:
-        Label:
+
         Label:
         Button:
             id: fav
             background_normal: 'img/unactive.png'
             background_disabled_normal: 'img/active.png'
             background_down: 'img/active.png'
-            size_hint: (None, None)
+            size_hint: (2, 2)
         Label:
-        Label:
+
         Label:
         Button:
             id: play_sound
             background_normal: 'img/dzwiek.png'
-            size_hint: (None, None)
+            size_hint: (2, 2)
     GridLayout:
+    Label:
     Label:
         id: duza_litera
         font_size: '350sp'
+    Label:
     GridLayout:
     GridLayout:
         cols: 3
@@ -33,7 +35,7 @@ GridLayout:
         Button:
             id: zamien_litere
             background_normal: 'img/strzalki.png'
-            size_hint: (None, None)
+            size_hint: (1, 2)
         Label:
     GridLayout:
         cols: 3
@@ -41,5 +43,6 @@ GridLayout:
         Label:
             id: slowo
             font_size: '80sp'
-            size_hint: (None, None)
+            size_hint: (2, 2)
         Label:
+    Label:
