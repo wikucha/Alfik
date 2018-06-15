@@ -1,25 +1,36 @@
 GridLayout:
-    rows: 2
+    rows: 3
     size_hint: (1, 0.2)
-
     GridLayout:
-        cols:5
+        cols:11
+        Label:
         Button:
-            text: 'menu'
-            on_press: app.root.current = 'menu'
+            background_normal: 'img/menu.png'
+            on_press: app.root.current = 'img/menu.png'
+            size_hint: (None, None)
+        Label:
         Button:
-            text: 'check'
+            background_normal: 'img/check.png'
             id: check
+            size_hint: (None, None)
+        Label:
         Button:
-            text: 'clear'
+            background_normal: 'img/clear.png'
             id: clear_b
+            size_hint: (None, None)
+        Label:
         Button:
-            text: 'prev'
-            id: prev
-        Button:
-            text: 'next'
-            id: next
 
+            background_normal: 'img/left.png'
+            id: prev
+            size_hint: (None, None)
+        Label:
+        Button:
+            background_normal: 'img/right.png'
+            id: next
+            size_hint: (None, None)
+        Label:
+    GridLayout:
     GridLayout:
         cols:7
         Label:
