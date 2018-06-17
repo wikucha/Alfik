@@ -3,7 +3,7 @@
 
 ### O Alfiku
 
-Alfik to aplikacja stworzona w języku programowania Python z pomocą frameworku Kivy przez grupę licealistów - miłośników programowania - w ramach konkursu _Programowanie zespołowe 2.0_. Aplikacja jest w zamyśle narzędziem nauki, które służy użytkownikom chcącym poznać nowe języki. Podstawą każdego języka jest alfabet, co było punktem wyjścia dla stworzenia aplikacji pomagającej zbudować silne fundamenty pod naukę języków obcych.
+Alfik to aplikacja stworzona w języku programowania Python z pomocą frameworku Kivy przez grupę licealistów - miłośników programowania - w ramach konkursu _Programowanie zespołowe 2.0_. Aplikacja jest w zamyśle narzędziem nauki, które służy użytkownikom chcącym poznać nowe języki. Podstawą każdego języka jest alfabet, co było punktem wyjścia dla stworzenia aplikacji pomagającej zbudować silne fundamenty pod naukę języków obcych.  
 Aplikacja działa w systemiach operacyjnych Android, Windows oraz Linux.
 
 #### Menu
@@ -45,9 +45,7 @@ Służy do nauki poprawnej pisowni obcego alfabetu. Rysuje się literę naśladu
 - Rosyjski
 - Francuski
 - Japoński (hiragana)
-- Grecki
-
-
+- Grecki  
   Czekamy na więcej! :)
 
 
