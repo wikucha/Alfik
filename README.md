@@ -46,6 +46,7 @@ Służy do nauki poprawnej pisowni obcego alfabetu. Rysuje się literę naśladu
 - Francuski
 - Japoński (hiragana)
 - Grecki  
+
   Czekamy na więcej! :)
 
 
