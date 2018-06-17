@@ -1,4 +1,5 @@
-## Alfik ![Image](https://github.com/wikucha/Alfik/blob/master/one_app/img/kappa.png?raw=true)
+## Alfik 
+***
 
 ### O Alfiku
 
@@ -14,6 +15,7 @@ Alfik to aplikacja tworzona w języku programowania Python z pomocą framework K
 
 #### Nauka pisania
 
+***
 ### Członkowie projektu
 
 - Wiktoria Gierej
@@ -21,10 +23,12 @@ Alfik to aplikacja tworzona w języku programowania Python z pomocą framework K
 - Zuzanna Kręc
 - Hubert Kutowski
 
+***
 ### Opiekun projektu
 
 - Piotr Przymus
 
+***
 ### Wspierane języki
 
 - Rosyjski
