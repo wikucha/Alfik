@@ -3,27 +3,27 @@
 
 ### O Alfiku
 
-Alfik to aplikacja tworzona w języku programowania Python z pomocą framework Kivy przez grupę licealistów - miłośników programowania - w ramach konkursu _Programowanie zespołowe 2.0_. Nasza aplikacja ma na celu służyć użytkownikom chcącym nauczyć się nowych języków. A od czego najlepiej zacząć tę naukę? Podstawą każdego języka jest alfabet, dlatego nasz zespół zajmuje się tworzeniem aplikacji pomagającej stworzyć silne fundamenty pod naukę języków obcych.
+Alfik to aplikacja tworzona w języku programowania Python z pomocą framework Kivy przez grupę licealistów - miłośników programowania - w ramach konkursu _Programowanie zespołowe 2.0_. Aplikacja ma na celu służyć użytkownikom chcącym nauczyć się nowych języków. Podstawą każdego języka jest alfabet, co było punktem wyjścia dla stworzenia aplikacji pomagającej zbudować silne fundamenty pod naukę języków obcych.
 
 ##### Menu
 
-Ta część aplikacji łączy wszystko w całość i pozwala przechodzić między różnymi jej częściami. Żeby zagrać w jedną z gier, należy najpierw wybrać język, którego chcemy się uczyć, a następnie grę, w którą chcemy zagrać. Jeżeli zapomnimy o wybraniu języka, po wybraniu gry załaduje się od nowa ekran menu.
+Ta część pozwala użytkownikowi sprawnie poruszać się po aplikacji i umożliwia skorzystanie z wszystkich jej wariantów. Żeby zagrać w jedną z gier, należy najpierw wybrać język, a następnie grę, w którą użytkownik chce zagrać. W razie pominięcia kroku wybrania języka, ekran menu załaduje się od nowa.
 
 ##### Fiszki
 
-Jest to elektroniczny zestaw fiszek, który użytkownik może zawsze mieć przy sobie i z niego korzystać w każdej wolnej chwili, by powtórzyć materiał lub nauczyć się czegoś nowego. Przesuwając palcem po ekranie przeglądamy obcy alfabet. Możemy także skożystać z opcji dodania do ulubionych, odsłuchania poprawnej wymowy oraz odwracania fiszki, by zobaczyć polski odpowiednik litery.
+Jest to elektroniczny zestaw fiszek, który użytkownik może zawsze mieć przy sobie i korzystać z niego w każdej wolnej chwili, by powtórzyć materiał lub nauczyć się czegoś nowego. Przegląda się wybrany obcy alfabet przesuwająć palcem po ekranie. Oprócz podstawowej opcji fiszek, gdzie możliwe jest odwrócenie i zobaczenie polskiego odpowiednika, dostępne są również funkcje specjalne. Multimedialna forma umożliwia skorzystanie z opcji dodania do ulubionych oraz odsłuchania poprawnej wymowy.
 
 ##### Memory
 
-To gra ćwicząca umiejętność czytania alfabetu. Polega na dopasowaniu litery obcego alfabetu do polskiego odpowiednika. Jeśli użytkownik poprawnie połączy parę, prostokąty zmienią kolor, jeśli źle - licznik błędów zwiększy się o 1.
+To gra ćwicząca umiejętność czytania alfabetu. Polega na dopasowaniu litery obcego alfabetu do polskiego odpowiednika. Jeśli użytkownik poprawnie połączy parę, prostokąty zmieniają kolor, jeśli źle - licznik błędów zwiększa się o 1.
 
 ##### Quiz fonetyczny
 
-Quiz fonetyczny polega na wybraniu odpowiedniej litery alfabetu po odsłuchaniu jej wymowy. Jeśli odpowiedź użytkownika jest poprawna, przycisk zmieni kolor na zielony, jeśli zła - na czerwony. Po zaznaczeniu odpowiedzi należy przesunąć palcem po ekranie, by przejść do następnego zadania.
+Quiz fonetyczny polega na wybraniu odpowiedniej litery alfabetu po odsłuchaniu jej wymowy. Jeśli odpowiedź użytkownika jest poprawna, przycisk zmienia kolor na zielony, jeśżeli zła - na czerwony. Po zaznaczeniu odpowiedzi należy przesunąć palcem po ekranie, by przejść do następnego zadania.
 
 ##### Nauka pisania
 
-Służy do nauki poprawnej pisowni obcego alfabetu. Należy rysować literę po śladzie pokazanym na ekranie. By sprawdzić poprawność swojej pisowni, należy wcisnąć przycisk sprawdzania. Zostanie wtedy dodany punkt do puli błędów lub poprawnych odpowiedzi. W razie popełnienia błędu, możemy wcisnąć przycisk czyszczenia ekranu i spróbować ponownie. Po przećwiczeniu jednej litery możemy przejść do innej, używając strzałek w prawo i w lewo.
+Służy do nauki poprawnej pisowni obcego alfabetu. Rysuje się literę naśladując ślad pokazany na ekranie. By upewnić się co do poprawności pisowni, należy wcisnąć przycisk sprawdzania. Zostanie wtedy dodany punkt do puli błędów lub poprawnych odpowiedzi. W razie pomyłki, można wcisnąć przycisk czyszczenia ekranu i spróbować ponownie. Po przećwiczeniu jednej litery przechodzi się do innej, używając strzałek w prawo i w lewo.
 
 ***
 ### Członkowie projektu
