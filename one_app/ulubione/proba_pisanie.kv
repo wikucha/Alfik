@@ -1,0 +1,61 @@
+GridLayout:
+    rows: 3
+    size_hint: (1, 0.2)
+    GridLayout:
+        cols:7
+        Label:
+        Button:
+            background_normal: 'img/menu.png'
+            on_press: app.root.current = 'menu'
+            size_hint: (1, 2)
+
+        Button:
+            background_normal: 'img/check.png'
+            id: check
+            size_hint: (1, 2)
+
+        Button:
+            background_normal: 'img/clear.png'
+            id: clear_b
+            size_hint: (1, 2)
+
+        Button:
+
+            background_normal: 'img/left.png'
+            id: prev
+            size_hint: (1, 2)
+
+        Button:
+            background_normal: 'img/right.png'
+            id: next
+            size_hint: (1, 2)
+        Label:
+
+    GridLayout:
+        cols:7
+        Label:
+        Label:
+            text: "Dobrze: "
+            font_name: 'fonts/roboto.ttf'
+
+        Label:
+            id: licznik_ok
+            text: "0"
+            font_name: 'fonts/roboto.ttf'
+            font_size:40
+            height: 300
+
+        Label:
+            text: "Źle: "
+            font_name: 'fonts/roboto.ttf'
+
+        Label:
+            id: licznik_false
+            text: "0"
+            font_name: 'fonts/roboto.ttf'
+            font_size:40
+            height: 300
+        Label:
+        Label:
+
+
