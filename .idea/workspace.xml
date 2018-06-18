@@ -2,10 +2,445 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d66dbf33-2756-4413-9894-fc9d77ff85b7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/one_app/lang/lang.zip" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/one_app/ulubione/learn.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/one_app/ulubione/proba_pisanie.kv" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/one_app/lang/fr/config.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/lang/grek/config.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/lang/jap/config.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/lang/lang.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/lang/lang/lang/__init__.py" afterPath="$PROJECT_DIR$/one_app/lang/lang/fr/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/one_app/lang/lang/lang/fr/__init__.py" afterPath="$PROJECT_DIR$/one_app/lang/lang/grek/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/one_app/lang/lang/lang/fr/config.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/lang/lang/lang/grek/__init__.py" afterPath="$PROJECT_DIR$/one_app/lang/lang/jap/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/one_app/lang/lang/lang/grek/config.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/lang/lang/lang/jap/__init__.py" afterPath="$PROJECT_DIR$/one_app/lang/lang/rus/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/one_app/lang/lang/lang/jap/config.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/lang/lang/lang/rus/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/lang/lang/lang/rus/config.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/lang/rus/config.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/frn/ai.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/frn/au.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/frn/ch.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/frn/gn.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/frn/j.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/frn/oi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/frn/on.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/frn/ou.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/Alfa.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/Beta.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/Gamma.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/chi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/delta.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/dzeta.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/epsilon.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/eta.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/ipsylon.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/jota.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/kappa.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/ksi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/lambda.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/my.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/ny.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/omega.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/omikron.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/phi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/pi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/psi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/rho.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/sigma.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/tau.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/grek/theta.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/a.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/chi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/e.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/ha.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/he.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/hi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/ho.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/hu.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/i.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/ka.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/ke.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/ki.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/ko.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/ku.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/ma.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/me.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/mi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/mo.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/mu.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/n.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/na.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/ne.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/ni.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/no.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/nu.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/o.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/ra.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/re.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/ri.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/ro.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/ru.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/sa.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/se.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/shi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/so.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/su.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/ta.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/te.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/to.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/tsu.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/u.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/wa.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/we .mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/wi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/wo.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/wu.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/ya.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/ye.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/yi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/yo.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/jap/yu.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/A.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/B.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/C.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/Ch.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/Cz.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/D.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/E.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/F.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/G.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/I.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/J.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/Ja.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/Je.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/Jo.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/Ju.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/K.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/L.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/M.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/N.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/O.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/P.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/R.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/S.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/Sz.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/Szcz.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/T.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/U.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/W.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/Y.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/Z.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/rus/Ż.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/frn/ai.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/frn/ai.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/frn/au.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/frn/au.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/frn/ch.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/frn/ch.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/frn/gn.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/frn/gn.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/frn/j.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/frn/j.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/frn/oi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/frn/oi.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/frn/on.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/frn/on.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/frn/ou.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/frn/ou.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/Alfa.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/Alfa.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/Beta.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/Beta.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/Gamma.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/Gamma.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/chi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/chi.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/delta.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/delta.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/dzeta.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/dzeta.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/epsilon.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/epsilon.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/eta.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/eta.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/ipsylon.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/ipsylon.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/jota.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/jota.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/kappa.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/kappa.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/ksi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/ksi.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/lambda.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/lambda.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/my.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/my.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/ny.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/ny.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/omega.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/omega.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/omikron.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/omikron.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/phi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/phi.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/pi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/pi.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/psi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/psi.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/rho.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/rho.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/sigma.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/sigma.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/tau.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/tau.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/theta.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/grek/theta.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/a.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/a.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/chi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/chi.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/e.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/e.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ha.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ha.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/he.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/he.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/hi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/hi.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ho.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ho.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/hu.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/hu.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/i.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/i.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ka.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ka.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ke.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ke.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ki.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ki.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ko.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ko.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ku.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ku.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ma.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ma.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/me.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/me.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/mi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/mi.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/mo.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/mo.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/mu.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/mu.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/n.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/n.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/na.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/na.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ne.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ne.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ni.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ni.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/no.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/no.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/nu.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/nu.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/o.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/o.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ra.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ra.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/re.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/re.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ri.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ri.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ro.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ro.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ru.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ru.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/sa.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/sa.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/se.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/se.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/shi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/shi.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/so.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/so.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/su.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/su.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ta.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ta.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/te.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/te.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/to.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/to.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/tsu.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/tsu.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/u.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/u.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/wa.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/wa.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/we .mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/wi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/wi.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/wo.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/wo.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/wu.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/wu.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ya.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ya.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ye.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/ye.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/yi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/yi.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/yo.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/yo.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/yu.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/jap/yu.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/A.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/B.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/C.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/Ch.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/Cz.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/D.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/E.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/F.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/G.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/I.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/J.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/Ja.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/Je.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/Jo.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/Ju.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/K.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/L.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/M.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/N.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/O.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/P.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/R.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/S.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/Sz.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/Szcz.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/T.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/U.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/W.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/Y.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/Z.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/one_app/sound/sound/sound/rus/Ż.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/frn/ai.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/frn/ai.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/frn/au.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/frn/au.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/frn/oi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/frn/oi.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/frn/ou.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/frn/ou.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/Alfa.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/Beta.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/Gamma.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/chi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/delta.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/dzeta.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/epsilon.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/eta.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/ipsylon.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/jota.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/kappa.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/ksi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/lambda.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/my.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/ny.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/omega.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/omikron.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/phi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/pi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/psi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/rho.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/sigma.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/tau.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/grek/theta.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/a.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/chi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/e.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/ha.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/he.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/hi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/ho.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/hu.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/i.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/ka.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/ke.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/ki.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/ko.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/ku.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/ma.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/me.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/mi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/mo.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/mu.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/n.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/na.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/ne.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/ni.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/no.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/nu.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/o.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/ra.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/re.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/ri.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/ro.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/ru.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/sa.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/se.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/shi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/so.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/su.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/ta.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/te.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/to.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/tsu.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/u.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/wa.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/we .mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/wi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/wo.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/wu.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/ya.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/ye.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/yi.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/yo.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/jap/yu.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/A.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/B.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/C.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/Ch.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/Cz.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/D.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/E.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/F.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/G.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/I.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/J.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/Ja.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/Je.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/Jo.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/Ju.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/K.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/L.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/M.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/N.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/O.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/P.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/R.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/S.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/Sz.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/Szcz.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/T.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/U.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/W.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/Y.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/Z.wav" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sound/rus/Ż.wav" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,7 +481,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/one_app/app.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -54,6 +489,26 @@
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/one_app/lang/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/one_app/lang/lang/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -187,7 +642,15 @@
             <path>
               <item name="Alfik" type="b2602c69:ProjectViewProjectNode" />
               <item name="Alfik" type="462c0819:PsiDirectoryNode" />
-              <item name="sound" type="462c0819:PsiDirectoryNode" />
+              <item name="one_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Alfik" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Alfik" type="462c0819:PsiDirectoryNode" />
+              <item name="one_app" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -203,11 +666,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\student\Documents\GitHub\Alfik\one_app\lang" />
-      <recent name="C:\Users\student\Documents\GitHub\Alfik\one_app\sound" />
-      <recent name="C:\Users\student\Documents\GitHub\Alfik\one_app\ulubione" />
-      <recent name="C:\Users\student\Documents\GitHub\Alfik\one_app\font" />
       <recent name="C:\Users\student\Documents\GitHub\Alfik\one_app" />
+      <recent name="C:\Users\student\Documents\GitHub\Alfik\one_app\sound\frn" />
+      <recent name="C:\Users\student\Documents\GitHub\Alfik\one_app\sound" />
+      <recent name="C:\Users\student\Documents\GitHub\Alfik\one_app\lang" />
+      <recent name="C:\Users\student\Documents\GitHub\Alfik\one_app\ulubione" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -390,21 +853,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/learn_layout.kv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lang/rus/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -700,6 +1148,22 @@
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one_app/lang/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one_app/lang/lang/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
